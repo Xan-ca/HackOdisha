@@ -1,0 +1,112 @@
+.imgCard{
+    width: 400px;
+    flex:0.22;
+    margin: 54px;
+    height: 550px;
+    border-radius: 7px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    transition: 20ms background-color;
+    box-shadow: 0 8px 32px 0 rgba(22, 22, 22, 0.812);
+ 
+}
+
+.imgName{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0);
+    
+}
+.imgInfo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    padding-top: 10px;
+    font-size: 1rem;
+    overflow-y: scroll;
+    height: 150px;
+ 
+    background-color: rgba(135, 255, 255, 0);
+    
+  
+  
+}
+.imgSrc{
+    width: 370px;
+    height: 230px;
+    margin-bottom: 3px;
+    border-radius: 3px 3px 0px 0px;
+
+}
+.imgSlider{
+    position: relative;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.priceInfo{
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    padding-top: 40px;
+    height: 30px;
+    justify-content:space-between;
+    text-align: center;
+}
+.tag{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(242, 15, 61);
+}
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding-right: 20px;
+}
+.wrapper{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    
+    
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(235, 240, 240);
+    gap: 0px;
+    width: 530px;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.searchinput{
+    width:500px;
+    margin:0px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    text-decoration: none;
+
+}
+.srchimg{
+height: 30px;
+background-color: rgba(240, 248, 255, 0);
+
+}

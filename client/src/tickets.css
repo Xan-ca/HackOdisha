@@ -1,0 +1,93 @@
+
+  
+  .ticket {
+    font-family: sans-serif;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #04030C;
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+    display: block;
+    margin: 10% auto auto auto;
+    color: #fff;;
+  }
+  
+  .date {
+    margin: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  .date .day{
+    font-size: 40px;
+    float: left;
+  }
+  
+  .date .month-and-time {
+    float: left;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+  }
+  
+  .artist {
+    font-size: 30px;
+    margin: 10px 100px 0 40px;
+    float: left;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  .location {
+    float: left;
+    margin: 135px 0 0 78px;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  
+  
+  .rip {
+    border-right: 8px dotted #436ea5;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 530px;
+  }
+  
+  .cta .buy {
+    position: absolute;
+    top: 135px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #436ea5;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  .small {
+    font-weight: 200;
+  }
+  
+  .ticket-1 {
+      background-image: url(https://wallup.net/wp-content/uploads/2017/11/17/365902-natural_lighting-history-museum-London-building-architecture-Natural_History_Museum-London.jpg);
+  }
+  
+  
+  
